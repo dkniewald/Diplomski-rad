@@ -1,0 +1,19 @@
+.results-metadata-container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    border-bottom: 1px solid black;
+}
+
+.results-grid-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.results-metadata-container p:nth-child(3),
+.results-metadata-container p:nth-child(9) {
+    border-left: double 5px black;
+    padding-left: 0.5em; /* to provide some space between the text and the line */
+    margin-top: -1px;
+    margin-bottom: -1px;
+}

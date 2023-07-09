@@ -1,0 +1,39 @@
+.header-container{
+    overflow: hidden;
+    height: 110px;
+    width: 80%;
+    background-color: transparent;
+    border-bottom: 1px solid;
+    margin: 0 auto 6em;
+
+}
+
+.logo-container{
+    position: relative;
+    float: left;
+    width: 20%;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+.link-container{
+    position: relative;
+    float: right;
+    width: 300px;
+    top: 45%;
+    display: flex;
+    justify-content:  space-between;
+}
+
+.link-container a {
+    text-decoration: none;  /* This will remove the underline */
+    font-size: 1.5rem;      /* This will make the letters bigger */
+    font-family: Arial, sans-serif;  /* This will change the font (replace Arial with your preferred font) */
+    color: black;           /* This will change the text color (replace black with your preferred color) */
+}
+
+.link-container a:hover {
+    color: gray;           /* This will change the text color when mouse hovers (replace gray with your preferred color) */
+}

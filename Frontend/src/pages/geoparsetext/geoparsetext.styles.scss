@@ -1,0 +1,49 @@
+.page-container {
+    width: 90%; /* adjust this to your needs */
+    margin: 0 auto;
+}
+
+.geoparse-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: #fdfdfd;
+    padding: 20px; 
+}
+
+.geoparse-textarea {
+    width: 450px;
+    height: 200px;
+    margin-bottom: 20px; 
+}
+
+.geoparse-button-container {
+    width: 100%; // Make button container full width of the container
+    display: flex;
+    justify-content: flex-end; // Align button to the end
+}
+
+.geoparse-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #055717;
+    color: #edf2f7;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.resultsText-container {
+    width: 90%;
+    max-width: 1350px;
+    margin: 20px auto;
+    /* Adjust the margin for proper positioning */
+}
+
+.resultsText-header-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border-bottom: 0.2em solid black;
+}

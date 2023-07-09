@@ -1,0 +1,11 @@
+.resultslookup-metadata-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-bottom: 1px solid black;
+}
+
+.resultslookup-grid-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
